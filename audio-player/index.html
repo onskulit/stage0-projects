@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/play.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <script type="module" src="index.js" defer></script>
+</head> 
+<body>
+    <main class="main">
+        <section class="section">
+            <div class="cover"></div>
+            <section class="player">
+                <div class="player-functional">
+                    <img src="./assets/svg/play.svg" alt="play-button" class="control-button btn">
+                    <div class="song-info">
+                        <p class="author-name">Jaden, Kid Cudi</p>
+                        <p class="song-name">On my own</p>
+                    </div>
+                    <div class="next-prev-buttons">
+                        <img src="./assets/svg/forward.svg" alt="next" class="next btn">
+                        <img src="./assets/svg/backward.svg" alt="previous" class="previous btn">
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <audio src="./assets/audio/Jaden - On My Own.mp3"></audio>
+                    <div class="timeline">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time-and-volume">
+                        <div class="time">
+                            <div class="current">0:00</div>
+                            <div class="divider">/</div>
+                            <div class="length"></div>
+                        </div>
+                        <div class="volume-container">
+                            <div class="volume-button">
+                                <img src="./assets/svg/volume.svg" alt="volume" class="volume">
+                            </div>
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <section>
+            <span>©</span>
+            <span>2022</span>
+            <a href="https://github.com/onskulit" class="footer-link">github</a>
+        </section>
+        <a href="https://rs.school/" class="footer-link"><img src="./assets/img/logo-rsschool3.png" alt="logo-rsschool3" class="rss-logo"></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <main class="main">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="game-container">
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="cell active"></div>
+            <div class="history">
+                <div class="X-history">
+                    <p>Player <span class="playerX">X</span></p>
+                    <p class="X-history-result">0</p>
+                </div>
+                <div class="O-history">
+                    <p>Player <span class="playerO">O</span></p>
+                    <p class="O-history-result">0</p>
+                </div>
+                <div class="tie-history">
+                    <p>Tie</p>
+                    <p class="tie-history-result">0</p>
+                </div>
+                <div class="last-ten">
+                    <p>Last 10</p>
+                    <p class="last-ten-result">-----</p>
+                </div>
+            </div>
+        </section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+            <button id="history">History</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <section>
+            <span>©</span>
+            <span>2022</span>
+            <a href="https://github.com/onskulit">github</a>
+        </section>
+        <a href="https://rs.school/"><img src="./assets/logo-rsschool3.png" alt="logo-rsschool3" class="rss-logo"></a>
+    </footer>
+</body>
+</html>
