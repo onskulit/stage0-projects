@@ -1,2 +1,1 @@
-# onskulit-JSFEPRESCHOOL
-Private repository for @onskulit
+# clone of private repository onskulit-JSFEPRESCHOOL
